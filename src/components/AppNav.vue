@@ -30,12 +30,14 @@ export default{
         </div>
 
     </div>
-    
+
   
  
 </template>
 
 <style lang="scss">
+
+
 
 
 .Navbar-container{
@@ -61,6 +63,7 @@ export default{
         
 
         li{
+            font-size: 20px;
             cursor: pointer;
 
             &.active{

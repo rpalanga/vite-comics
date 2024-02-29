@@ -7,8 +7,8 @@ import AppComics from './components/AppComics.vue';
 export default {
   components: {
     AppNav,
-    AppMain,
     AppComics,
+    AppMain,
     AppFooter
   }
 }
@@ -23,8 +23,14 @@ export default {
 
     </div>
     <div class="up-main">
+      <AppComics></AppComics>
 
     </div>
+    <div class="blue-main">
+      <AppMain></AppMain>
+
+    </div>
+
 
   </div>
 
@@ -34,6 +40,7 @@ export default {
 
 <style lang="scss">
 @use "./styles/newstyle" as *;
+
 
 .container{
   border: 1px solid white;
@@ -47,6 +54,12 @@ export default {
   .header{
   background-color: white;
 
+  }
+  .up-main{
+    background-color: black;
+  }
+  .blue-main{
+    background-color: #3880F1;
   }
 
 }

@@ -64,6 +64,8 @@ export default {
 
     color: white;
 
+    
+
     .icon {
         display: flex;
         align-items: center;

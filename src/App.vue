@@ -3,13 +3,15 @@ import AppNav from './components/AppNav.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
 import AppComics from './components/AppComics.vue';
+import AppDownFooter from './components/AppDownFooter.vue';
 
 export default {
   components: {
     AppNav,
     AppComics,
     AppMain,
-    AppFooter
+    AppFooter,
+    AppDownFooter
   }
 }
 
@@ -29,6 +31,13 @@ export default {
     <div class="blue-main">
       <AppMain></AppMain>
 
+    </div>
+    <div class="up-footer">
+      <AppFooter></AppFooter>
+
+    </div>
+    <div class="down-footer">
+      <AppDownFooter></AppDownFooter>
     </div>
 
 
@@ -61,6 +70,12 @@ export default {
   .blue-main{
     background-color: #3880F1;
   }
+  .up-footer{
+    background-image: url(../public/img/footer-bg.jpg);
+    
+  }
+  
+
 
 }
 

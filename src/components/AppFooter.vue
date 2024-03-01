@@ -17,7 +17,7 @@ export default{
 
 <template>
 
-    <div class="footer-container">
+    <div class="top-footer">
 
         <div class="links">
 
@@ -81,9 +81,8 @@ export default{
 
 <style lang="scss">
 
-.footer-container{
-    border: 1px solid red;
-    /* test */
+.top-footer{
+    
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;

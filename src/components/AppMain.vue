@@ -35,25 +35,36 @@ export default {
 
 <template>
     <div class="container-blue">
-        <div class="icon" v-for="(currentObject, indexObject) in objects">
-
-            <img :src="currentObject.img" alt="">
-
-            <p>
-                {{ currentObject.name }}
-            </p>
-
-
-
+        <div class="row-blue">
+            <div class="icon" v-for="(currentObject, indexObject) in objects">
+    
+                <img :src="currentObject.img" alt="">
+    
+                <p>
+                    {{ currentObject.name }}
+                </p>
+    
+    
+    
+            </div>
+    
         </div>
 
     </div>
 </template>
 
 <style lang="scss">
-.container-blue {
-    border: 1px solid red;
-    /* test */
+.container-blue{
+    width: 100%;
+  
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #3880F1;
+}
+
+.row-blue {
+   
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;

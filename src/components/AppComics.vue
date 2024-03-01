@@ -8,8 +8,11 @@ export default{
 <template>
     <div class="comics-container">
 
-        <div class="content"> --> Content goes here <-- </div>
-
+        <div class="comics">
+    
+            <div class="content"> --> Content goes here <-- </div>
+    
+        </div>
     </div>
 
   
@@ -19,8 +22,17 @@ export default{
 <style lang="scss">
 
 .comics-container{
-    border: 1px solid red;
-    /* test */
+    width: 100%;
+  
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: black;
+
+}
+
+.comics{
+  
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;

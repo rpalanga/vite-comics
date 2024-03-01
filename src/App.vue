@@ -55,20 +55,20 @@ export default {
   border: 1px solid white;
 
   // test
-  width: 100%;
+  // width: 100%;
   
-  margin-left: auto;
-  margin-right: auto;
+  // margin-left: auto;
+  // margin-right: auto;
 
   .header{
-  background-color: white;
+  // background-color: white;
 
   }
   .up-main{
-    background-color: black;
+    // background-color: black;
   }
   .blue-main{
-    background-color: #3880F1;
+    // background-color: #3880F1;
   }
   .up-footer{
     background-image: url(../public/img/footer-bg.jpg);

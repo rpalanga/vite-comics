@@ -15,21 +15,24 @@ export default{
 </script>
 
 <template>
-
-    <div class="Navbar-container">
-        <div>
-            <img src="../../public/img/dc-logo.png" alt="">
+    <div class="container-nav">
+        <div class="Navbar">
+            <div>
+                <img src="../../public/img/dc-logo.png" alt="">
+            </div>
+            <div>
+                <ul>
+                    <li v-for="(link, index) in links" :class="index == elemetIndex ? `active` : ``" >
+                        {{ link }}
+                    </li>
+                    
+                </ul>
+            </div>
+    
         </div>
-        <div>
-            <ul>
-                <li v-for="(link, index) in links" :class="index == elemetIndex ? `active` : ``" >
-                    {{ link }}
-                </li>
-                
-            </ul>
-        </div>
-
+        
     </div>
+
 
   
  
@@ -37,12 +40,19 @@ export default{
 
 <style lang="scss">
 
+.container-nav{
+    width: 100%;
+  
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: white;
+
+}
 
 
-
-.Navbar-container{
-    border: 1px solid red;
-    /* test */
+.Navbar{
+    
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;

@@ -52,24 +52,8 @@ export default {
 
 
 .container{
-  border: 1px solid white;
-
-  // test
-  // width: 100%;
   
-  // margin-left: auto;
-  // margin-right: auto;
 
-  .header{
-  // background-color: white;
-
-  }
-  .up-main{
-    // background-color: black;
-  }
-  .blue-main{
-    // background-color: #3880F1;
-  }
   .up-footer{
     background-image: url(../public/img/footer-bg.jpg);
     

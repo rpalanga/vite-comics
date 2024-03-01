@@ -42,8 +42,7 @@ export default{
 
 
 .AppDownFooter-container{
-    border: 1px solid red;
-    /* test */
+   
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;

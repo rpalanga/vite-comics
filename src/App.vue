@@ -1,8 +1,8 @@
 <script>
 import AppNav from './components/AppNav.vue';
-import AppMain from './components/AppMain.vue';
-import AppFooter from './components/AppFooter.vue';
 import AppComics from './components/AppComics.vue';
+// import AppMain from './components/AppMain.vue';
+import AppFooter from './components/AppFooter.vue';
 import AppDownFooter from './components/AppDownFooter.vue';
 
 export default {
@@ -29,7 +29,7 @@ export default {
 
     </div>
     <div class="blue-main">
-      <AppMain></AppMain>
+      <!-- <AppMain></AppMain> -->
 
     </div>
     <div class="up-footer">

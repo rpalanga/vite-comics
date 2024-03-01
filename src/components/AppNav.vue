@@ -17,7 +17,7 @@ export default{
 <template>
     <div class="container-nav">
         <div class="Navbar">
-            <div>
+            <div class="logo-container">
                 <img src="../../public/img/dc-logo.png" alt="">
             </div>
             <div>
@@ -60,9 +60,15 @@ export default{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px;
 
-    img{
-        width: 80px;
+    .logo-container{
+        display: flex;
+        align-items: center;
+
+        img{
+            width: 80px;
+        }
     }
 
     ul{

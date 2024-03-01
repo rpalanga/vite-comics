@@ -39,6 +39,10 @@ export default {
         color: white;
         background-color: #3880F1;
         padding: 10px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 20px;
+
 
         position: absolute;
         left: 80px;

@@ -46,7 +46,7 @@ export default {
 
         position: absolute;
         left: 80px;
-        bottom: -15px;
+        transform: translateY(-50%);
     }
 
 
@@ -55,6 +55,7 @@ export default {
         height: 400px;
         object-fit: cover;
         object-position: top;
+        display: block;
     }
 }
 

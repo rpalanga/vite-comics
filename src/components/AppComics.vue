@@ -1,15 +1,17 @@
 <script>
-import AppMain from '.AppMain.vue';
+import AppMain from './AppMain.vue';
 
 
 
-export default{
-
-    components: {
-        AppMain,
-    },
+export default {
 
     name: "AppComics",
+
+
+    components: {
+        AppMain
+    }
+
 
 }
 
@@ -19,30 +21,29 @@ export default{
     <div class="comics-container">
 
         <div class="comics">
-    
-            <div class="content"> --> Content goes here <-- </div>
-    
+
+            <div class="content"> Content goes here </div>
+
         </div>
     </div>
 
-  
- 
+    <AppMain />
+    
 </template>
 
 <style lang="scss">
-
-.comics-container{
+.comics-container {
     width: 100%;
-  
-  margin-left: auto;
-  margin-right: auto;
 
-  background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: black;
 
 }
 
-.comics{
-  
+.comics {
+
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -51,7 +52,7 @@ export default{
     justify-content: flex-start;
     align-items: center;
 
-    .content{
+    .content {
         color: white;
         padding: 50px;
         font-weight: bolder;

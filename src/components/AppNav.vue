@@ -1,6 +1,12 @@
 <script>
+import AppJumbotron from './AppJumbotron.vue';
+
 export default{
     name: "AppNav",
+
+    components: {
+        AppJumbotron
+    },
 
     data(){
         return {
@@ -15,6 +21,7 @@ export default{
 </script>
 
 <template>
+
     <div class="container-nav">
         <div class="Navbar">
             <div class="logo-container">
@@ -32,6 +39,8 @@ export default{
         </div>
         
     </div>
+
+    <AppJumbotron></AppJumbotron>
 
 
   

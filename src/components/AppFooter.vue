@@ -16,62 +16,64 @@ export default{
 </script>
 
 <template>
+    <div class="container-footer-up">
 
-    <div class="top-footer">
-
-        <div class="links">
-
-            <div id="link-col">
-                <h3>DC COMICS</h3>
-                <ul v-for="listElement in listOne">
-                    <li> {{ listElement }}</li>
-                   
-                </ul>
-                <h3>SHOP</h3>
-                <ul v-for="listElement in listTwo">
-                    <li>{{ listElement }}</li>
-                    
-                </ul>
-            </div>
-            <div id="link-col-1">
-                <h3>DC</h3>
-                <ul  v-for="listElement in listThree">
-                    <li> {{ listElement }}</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+        <div class="top-footer">
     
+            <div class="links">
+    
+                <div id="link-col">
+                    <h3>DC COMICS</h3>
+                    <ul v-for="listElement in listOne">
+                        <li> {{ listElement }}</li>
+                       
+                    </ul>
+                    <h3>SHOP</h3>
+                    <ul v-for="listElement in listTwo">
+                        <li>{{ listElement }}</li>
+                        
+                    </ul>
+                </div>
+                <div id="link-col-1">
+                    <h3>DC</h3>
+                    <ul  v-for="listElement in listThree">
+                        <li> {{ listElement }}</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+        
+                </div>
+        
+                <div id="link-col-2">
+                    <h3>SITES</h3>
+                    <ul  v-for="listElement in listFour">
+                        <li>{{ listElement }}</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+        
+                </div>
             </div>
     
-            <div id="link-col-2">
-                <h3>SITES</h3>
-                <ul  v-for="listElement in listFour">
-                    <li>{{ listElement }}</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+            <img src="../../public/img/dc-logo-bg.png" alt="">
     
-            </div>
+    
+    
+    
+    
+    
+    
         </div>
-
-        <img src="../../public/img/dc-logo-bg.png" alt="">
-
-
-
-
-
-
-
     </div>
 
 
@@ -80,6 +82,16 @@ export default{
 </template>
 
 <style lang="scss">
+
+.container-footer-up{
+
+    background-image: url(../public/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+}
 
 .top-footer{
     

@@ -1,7 +1,6 @@
 <script>
 import AppNav from './components/AppNav.vue';
 import AppComics from './components/AppComics.vue';
-// import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
 import AppDownFooter from './components/AppDownFooter.vue';
 
@@ -9,7 +8,6 @@ export default {
   components: {
     AppNav,
     AppComics,
-    AppMain,
     AppFooter,
     AppDownFooter
   }
@@ -24,14 +22,13 @@ export default {
       <AppNav></AppNav>
 
     </div>
+
+ 
     <div class="up-main">
       <AppComics></AppComics>
 
     </div>
-    <div class="blue-main">
-      <!-- <AppMain></AppMain> -->
-
-    </div>
+    
     <div class="up-footer">
       <AppFooter></AppFooter>
 
@@ -54,10 +51,7 @@ export default {
 .container{
   
 
-  .up-footer{
-    background-image: url(../public/img/footer-bg.jpg);
-    
-  }
+
   
 
 
